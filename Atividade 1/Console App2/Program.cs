@@ -4,7 +4,7 @@ class Calculator
 {
     public static void init()
     {
-        Console.WriteLine("\nSelecione a operação matemática" +
+        Console.WriteLine("\nSelecione a operação: " +
             "\n1 - Soma" +
             "\n2 - Subtração" +
             "\n3 - Multiplicação" +
@@ -25,7 +25,7 @@ class Calculator
         }
         else
         {
-            Console.WriteLine($"\nO calculo entre {number1} e {number2} é: {result}");
+            Console.WriteLine($"\nO O resultado é: {result}");
         }
     }
     private static float calculate(int op, float num1, float num2)
